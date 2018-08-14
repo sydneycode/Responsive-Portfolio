@@ -1,4 +1,8 @@
 
+* {
+    box-sizing: border-box;
+  }
+
 header {
     background: #ffffff;
     float: left;
@@ -25,6 +29,9 @@ footer {
 h1 {
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 40px;
+    height: 80px;
+    padding-top: 20px;
 }
 
 h2 {
@@ -46,12 +53,14 @@ p, label, input, textarea {
 p {
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 20px;
 }
 
 input, textarea {
     padding-left: 20px;
     padding-right: 20px;
-    width: 860px;
+    /* width: 860px; */
+    width: 100%;
 }
 
 a {
@@ -162,6 +171,7 @@ li {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 10px;
+    
 }
 
 #c-message {
